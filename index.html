@@ -3,37 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal Portfolio Website">
-    <meta name="keywords" content="portfolio, web developer, HTML5, CSS3, JavaScript">
-    <meta name="author" content="Your Name">
+    <meta name="description" content="Personal Portfolio Website showcasing my skills, projects, and contact information.">
+    <meta name="keywords" content="Portfolio, HTML5, CSS3, JavaScript, Web Developer">
+    <meta name="author" content="Vanshika Dungarwal">
+
     <title>Home | Personal Portfolio</title>
 
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-    <header>
-        <h1>My Portfolio</h1>
-        <nav aria-label="Main Navigation">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+    <h1>My Portfolio</h1>
 
-    <main>
-        <section>
-            <h2>Welcome</h2>
-            <p>Welcome to my personal portfolio website.</p>
-        </section>
-    </main>
+    <nav aria-label="Main Navigation">
+        <ul>
+            <li><a href="index.html" aria-current="page">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-    <footer>
-        <p>&copy; 2026 Your Name. All rights reserved.</p>
-    </footer>
+<main>
+
+    <!-- Hero Section -->
+    <section aria-labelledby="hero-heading">
+
+        <img src="images/profile.jpg"
+             alt="Profile picture of Vanshika Dungarwal"
+             width="220">
+
+        <h2 id="hero-heading">
+            Hi, I'm <span style="color:#2563eb;">Vanshika Dungarwal</span>
+        </h2>
+
+        <p>
+            A passionate Front-End Web Developer who enjoys creating
+            responsive, accessible and user-friendly websites using
+            HTML5, CSS3 and JavaScript.
+        </p>
+
+        <br>
+
+        <a href="projects.html">
+            <button>View Projects</button>
+        </a>
+
+        <a href="contact.html">
+            <button>Contact Me</button>
+        </a>
+
+    </section>
+
+    <!-- Skills -->
+    <section aria-labelledby="skills-heading">
+
+        <h2 id="skills-heading">My Skills</h2>
+
+        <article>
+            <h3>HTML5</h3>
+            <p>Semantic HTML, Forms, Accessibility, SEO</p>
+        </article>
+
+        <article>
+            <h3>CSS3</h3>
+            <p>Responsive Design, Flexbox, Grid, Animations</p>
+        </article>
+
+        <article>
+            <h3>JavaScript</h3>
+            <p>DOM Manipulation, Events, Form Validation</p>
+        </article>
+
+    </section>
+
+    <!-- Why Hire Me -->
+    <section aria-labelledby="why-heading">
+
+        <h2 id="why-heading">Why Choose Me?</h2>
+
+        <article>
+            <p>
+                I enjoy building clean, responsive and accessible websites
+                that provide a great user experience across all devices.
+            </p>
+        </article>
+
+    </section>
+
+</main>
+
+<footer>
+
+    <p>&copy; 2026 Vanshika Dungarwal. All Rights Reserved.</p>
+
+    <p>
+        Email:
+        <a href="mailto:vanshikadungarwal615@email.com">
+            vanshikadungarwal615@email.com
+        </a>
+    </p>
+
+</footer>
+
+<script src="js/script.js"></script>
 
 </body>
 </html>

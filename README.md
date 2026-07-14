@@ -54,4 +54,4 @@ personal-portfolio/
 - High-contrast, readable layout
 
 ## 👨‍💻 Author
-**Your Name**
+**Vanshika Dungarwal**
